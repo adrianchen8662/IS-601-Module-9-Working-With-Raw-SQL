@@ -1,3 +1,8 @@
+Modifications made: 
+[Dockerfile](Dockerfile): added curl to support HEALTHCHECK
+[main.py](main.py): added /health endpoint to satisfy Dockerfile HEALTHCHECK
+[test_e2e.py](tests/e2e/test_e2e.py): wait for the async fetch to complete and update the DOM before asserting
+
 # 📦 Project Setup
 
 ---
